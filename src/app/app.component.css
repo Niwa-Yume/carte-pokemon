@@ -1,1 +1,33 @@
+.pokemon-header {
+  text-align: center;
+  padding: 10px 0; /* Réduit de 20px à 10px */
+  margin-bottom: 10px; /* Réduit de 20px à 10px */
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
 
+.logo-container {
+  margin-bottom: 5px;
+}
+
+.pokemon-logo {
+  max-width: 200px; /* Réduit de 300px à 200px */
+  height: auto;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.7));
+}
+
+h1 {
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

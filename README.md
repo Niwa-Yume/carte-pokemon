@@ -7,11 +7,11 @@ L’objectif ? Comprendre et reproduire les effets visuels des **cartes Pokémon
 
 ## 📂 Contenu du repo
 
-### `holo-card.html` + `style.css`
+### `une carte pokémon incroyable !`
 
 Un duo de fichiers simples pour :
 
-- créer une **structure HTML** inspirée des cartes Pokémon,
+- créer une structure inspirée **des cartes Pokémon**,
 - styliser la carte avec du **CSS moderne** (gradients animés, reflets, ombres…),
 - reproduire des **effets holographiques** dynamiques au survol et selon l’angle de la lumière (simulé).
 
@@ -21,11 +21,11 @@ Un duo de fichiers simples pour :
 
 ## 🛠️ Technologies utilisées
 
-| Outil         | Rôle |
-|---------------|------|
-| `HTML5`       | Structure de la carte |
-| `CSS3`        | Magie visuelle ✨ (gradients, keyframes, perspective, transforms, etc.) |
-| `Vanilla JS` (optionnel) | Ajouter des effets dynamiques ou interactivité |
+| Outil                    |
+|--------------------------|
+| `Angular`                |
+| `CSS`                    |
+| `Type scrip` (optionnel) |
 
 ---
 
@@ -42,11 +42,10 @@ Un duo de fichiers simples pour :
 
 1. Clone ce repo ou télécharge les fichiers :
    \`\`\`bash
-   git clone https://github.com/ton-user/pokeholo-css
+   git clone https://github.com/Niwa-Yume/carte-pokemon
    cd pokeholo-css
    \`\`\`
 
-2. Ouvre `holo-card.html` dans ton navigateur préféré  
    ✨ Et regarde la magie opérer !
 
 ---
@@ -54,21 +53,18 @@ Un duo de fichiers simples pour :
 ## 💡 Idées d’amélioration
 
 - [ ] Ajouter un effet de **parallax** ou de **suivi de la souris** (JS).
-- [ ] Intégrer un petit **générateur de cartes personnalisées**.
-- [ ] Ajouter une **collection de types** (feu, eau, psy...) avec leurs propres effets.
 - [ ] Expérimenter avec **WebGL** ou des **shaders CSS** si tu veux aller loin.
 
 ---
 
 ## 🧠 Inspirations
 
-- Les cartes Pokémon d’origine (Wizards of the Coast / Nintendo)
-- Des démos CSS de portfolio et visual effects
-- Les jeux de lumière sur des objets physiques, traduits en web
+- Les cartes Pokémon d’origine + le projet de [Simon Goellner](https://poke-holo.simey.me/)
+
 
 ---
 
 ## 👾 Auteur
 
-Un(e) passionné(e) de web design et de Pokémon.  
+Un passionné de web design et de Pokémon.  
 Tu veux contribuer ou partager une carte ? **Let’s go trainer !** 🎒
