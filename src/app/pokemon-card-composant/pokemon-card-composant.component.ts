@@ -16,7 +16,7 @@ export class PokemonCardComposantComponent implements AfterViewInit {
     const cardElement = this.card.nativeElement;
     const cardInner = cardElement.querySelector('.card-inner');
 
-    // Gestion du survol
+    // Gestion l'efffet de hover
     cardElement.addEventListener('mousemove', (e: MouseEvent) => {
       if (!this.isFlipped) {
         const rect = cardElement.getBoundingClientRect();
@@ -32,34 +32,30 @@ export class PokemonCardComposantComponent implements AfterViewInit {
       }
     });
 
-    // Réinitialisation lors de la sortie du survol
+    //reset de la position de la carte quand on sort de la carte
     cardElement.addEventListener('mouseleave', () => {
       if (!this.isFlipped) {
         cardInner.style.transform = 'rotateY(0deg) rotateX(0deg)';
       }
     });
 
-    // Gestion du clic avec séparation claire entre les états
-// Modifiez la gestion du clic dans ngAfterViewInit
+    // Filp de la carte au click
     cardElement.addEventListener('click', () => {
       this.isFlipped = !this.isFlipped;
 
+
+      cardInner.style.transform = '';
+
       if (this.isFlipped) {
-        // Important: appliquer seulement la classe, ne pas manipuler le style directement
         cardElement.classList.add('flipped');
       } else {
         cardElement.classList.remove('flipped');
-        // Réinitialiser après un délai pour éviter les conflits
-        setTimeout(() => {
-          if (!this.isFlipped && !cardElement.matches(':hover')) {
-            cardInner.style.transform = 'rotateY(0deg) rotateX(0deg)';
-          }
-        }, 400); // Durée plus longue pour laisser la transition se terminer
+        // Ne pas réappliquer de transformation tout de suite
       }
     });
   }
 
-  // Nouvelle méthode pour l'effet de brillance dynamique
+  // l'effet de brillance
   updateShineEffect(e: MouseEvent, cardElement: HTMLElement) {
     const shine = cardElement.querySelector('.shine') as HTMLElement;
     if (!shine) return;

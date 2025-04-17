@@ -1,59 +1,74 @@
-# CartePokemon
+# ✨ PokéHoloCSS — Recréer des Cartes Pokémon Holographiques en CSS
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+Un petit projet passion qui mêle nostalgie Pokémon et magie du CSS 🎨💫  
+L’objectif ? Comprendre et reproduire les effets visuels des **cartes Pokémon holo**… sans image, juste avec du **HTML/CSS pur**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📂 Contenu du repo
 
-```bash
-ng serve
-```
+### `holo-card.html` + `style.css`
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Un duo de fichiers simples pour :
 
-## Code scaffolding
+- créer une **structure HTML** inspirée des cartes Pokémon,
+- styliser la carte avec du **CSS moderne** (gradients animés, reflets, ombres…),
+- reproduire des **effets holographiques** dynamiques au survol et selon l’angle de la lumière (simulé).
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+> 🔍 Objectif principal : apprendre les effets visuels avancés en CSS (pseudo-éléments, animations, filters, blending modes...).
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🛠️ Technologies utilisées
 
-```bash
-ng generate --help
-```
+| Outil         | Rôle |
+|---------------|------|
+| `HTML5`       | Structure de la carte |
+| `CSS3`        | Magie visuelle ✨ (gradients, keyframes, perspective, transforms, etc.) |
+| `Vanilla JS` (optionnel) | Ajouter des effets dynamiques ou interactivité |
 
-## Building
+---
 
-To build the project run:
+## 🔮 Objectifs du projet
 
-```bash
-ng build
-```
+- Recréer une carte Pokémon **visuellement fidèle**, mais **interprétée en web design**.
+- Explorer le **CSS avancé** pour simuler des textures holographiques.
+- Comprendre comment les éléments visuels s’imbriquent pour un rendu "premium".
+- Créer une base pour d’éventuelles **cartes personnalisées animées** ou des portfolios stylés.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🚀 Pour tester le projet
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+1. Clone ce repo ou télécharge les fichiers :
+   \`\`\`bash
+   git clone https://github.com/ton-user/pokeholo-css
+   cd pokeholo-css
+   \`\`\`
 
-```bash
-ng test
-```
+2. Ouvre `holo-card.html` dans ton navigateur préféré  
+   ✨ Et regarde la magie opérer !
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 💡 Idées d’amélioration
 
-```bash
-ng e2e
-```
+- [ ] Ajouter un effet de **parallax** ou de **suivi de la souris** (JS).
+- [ ] Intégrer un petit **générateur de cartes personnalisées**.
+- [ ] Ajouter une **collection de types** (feu, eau, psy...) avec leurs propres effets.
+- [ ] Expérimenter avec **WebGL** ou des **shaders CSS** si tu veux aller loin.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 🧠 Inspirations
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Les cartes Pokémon d’origine (Wizards of the Coast / Nintendo)
+- Des démos CSS de portfolio et visual effects
+- Les jeux de lumière sur des objets physiques, traduits en web
+
+---
+
+## 👾 Auteur
+
+Un(e) passionné(e) de web design et de Pokémon.  
+Tu veux contribuer ou partager une carte ? **Let’s go trainer !** 🎒
